@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class Counter : MonoBehaviour
 {
-    public int Count { get; private set; } = 0;
-    public event Action CountChanged;
-
     [SerializeField] private InputManager _inputManager;
 
     private float _delay = 0.5f;
     private bool _isCotoutineRunning;
     private Coroutine _coroutine;
 
+    public event Action CountChanged;
+
+    public int Count { get; private set; } = 0;
 
     private void OnEnable()
     {
-        _inputManager.LeftMouseButtonDown += ToggleCoroutine;
+        _inputManager.InputActivated += ToggleCoroutine;
     }
 
     private void OnDisable()
     {
-        _inputManager.LeftMouseButtonDown -= ToggleCoroutine;
+        _inputManager.InputActivated -= ToggleCoroutine;
     }
 
     private void ToggleCoroutine()
@@ -29,7 +29,7 @@ public class Counter : MonoBehaviour
         if (_isCotoutineRunning == false)
         {
             _isCotoutineRunning = true;
-            _coroutine = StartCoroutine(CountTime(_delay));
+            _coroutine = StartCoroutine(IncreaseCountRoutine(_delay));
         }
         else
         {
@@ -38,7 +38,7 @@ public class Counter : MonoBehaviour
         }
     }
 
-    private IEnumerator CountTime(float delay)
+    private IEnumerator IncreaseCountRoutine(float delay)
     {
         var wait = new WaitForSeconds(delay);
 

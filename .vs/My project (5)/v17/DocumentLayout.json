@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity\\Project\\My project (5)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|e:\\unity\\project\\my project (5)\\assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|E:\\Unity\\Project\\My project (5)\\assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|e:\\unity\\project\\my project (5)\\assets\\scripts\\counterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|e:\\unity\\project\\my project (5)\\assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|E:\\Unity\\Project\\My project (5)\\assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760C3C8E-4038-4128-6F13-A5C3379F636E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Counter.cs",
               "DocumentMoniker": "E:\\Unity\\Project\\My project (5)\\Assets\\Scripts\\Counter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Counter.cs",
               "ToolTip": "E:\\Unity\\Project\\My project (5)\\Assets\\Scripts\\Counter.cs",
               "RelativeToolTip": "Assets\\Scripts\\Counter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T15:55:25.909Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CounterView.cs",
               "ToolTip": "E:\\Unity\\Project\\My project (5)\\Assets\\Scripts\\CounterView.cs",
               "RelativeToolTip": "Assets\\Scripts\\CounterView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T05:20:30.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "InputManager.cs",
               "DocumentMoniker": "E:\\Unity\\Project\\My project (5)\\Assets\\Scripts\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
               "ToolTip": "E:\\Unity\\Project\\My project (5)\\Assets\\Scripts\\InputManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\InputManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T05:24:00.237Z",
               "EditorCaption": ""

@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    public event Action LeftMouseButtonDown;
+    public event Action InputActivated;
 
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
-            LeftMouseButtonDown?.Invoke();
+            InputActivated?.Invoke();
     }
 }
