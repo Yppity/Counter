@@ -60,7 +60,9 @@
     <Analyzer Include="E:\Unity\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Сounter.cs" />
+    <Compile Include="Assets\Scripts\CounterView.cs" />
+    <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Counter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
